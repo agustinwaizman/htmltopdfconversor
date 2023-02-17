@@ -1,0 +1,73 @@
+<div class="page-container">Page of</div>
+<div class="logo-container"><strong><span style="color: #003366;">S&amp;S ADMINISTRACI&Oacute;N</span></strong><div>
+<table class="invoice-info-container">
+<tbody>
+<tr>
+<td class="client-name" rowspan="2">{{ locatario }}</td>
+<td>Anvil Co</td>
+</tr>
+<tr>
+<td>3 de Abril 1280</td>
+</tr>
+<tr>
+<td>Fecha Recibo: <strong>{{ fecha }}</strong></td>
+<td>Corrientes Capital, 3400</td>
+</tr>
+<tr>
+<td>Recibo No: <strong>{{ nro_de_pago }}</strong></td>
+<td>schiavonihector@gmail.com</td>
+</tr>
+</tbody>
+</table>
+<table class="line-items-container">
+<thead>
+<tr>
+<th class="heading-quantity">&nbsp;</th>
+<th class="heading-description">Descripcion</th>
+<th class="heading-price">&nbsp;</th>
+<th class="heading-subtotal">Subtotal</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>&nbsp;</td>
+<td>Expensas</td>
+<td class="right">&nbsp;</td>
+<td class="bold">{{ tot_a_pagar }}</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td>{{item2}}</td>
+<td class="right">&nbsp;</td>
+<td class="bold">{{subtotal2}}</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td>{{item3}}</td>
+<td class="right">&nbsp;</td>
+<td class="bold">{{subtotal3}}</td>
+</tr>
+</tbody>
+</table>
+<table class="line-items-container has-bottom-border">
+<thead>
+<tr>
+<th>Edificio</th>
+<th>Piso | Departamento</th>
+<th>Pagado</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="payment-info">
+<div><strong>{{ edif }}</strong></div>
+</td>
+<td class="large">{{ piso_dpto }}</td>
+<td class="large total">$ {{ pagado }}</td>
+</tr>
+</tbody>
+</table>
+<div class="footer">
+<div class="footer-info">schiavonihector@gmail.com | 3794660208 </div>
+<!-- <div class="footer-thanks"><img src="https://github.com/anvilco/html-pdf-invoice-template/raw/main/img/heart.png" alt="heart" />Thank you!</div> -->
+</div>
